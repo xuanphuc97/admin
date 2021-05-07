@@ -1,0 +1,29 @@
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    ul {
+        list-style-type: none;
+    }
+}
+
+.icon {
+    font-size: 40px;
+}
+$sidebar-bg-color: #fff !default;
+$sidebar-color: #000 !default;
+$sidebar-width: 205px !default;
+$sidebar-collapsed-width: 100% !default;
+$highlight-color: #000 !default;
+$submenu-bg-color: #fff !default;
+$submenu-bg-color-collapsed: #fff !default;
+$icon-bg-color: #fff !default;
+$icon-size: 35px !default;
+$breakpoint-xs: 480px !default;
+$breakpoint-sm: 576px !default;
+$breakpoint-md: 768px !default;
+$breakpoint-lg: 992px !default;
+$breakpoint-xl: 1200px !default;
+
+@import "~react-pro-sidebar/dist/scss/styles.scss";
